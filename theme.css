@@ -1,0 +1,349 @@
+*{
+	margin: 0;
+	padding: 0;
+	}
+.fa-anchor{
+  padding:10px;
+}
+
+.fa-heart{
+  padding:10px;
+}
+
+.fa-user{
+  padding:10px;
+}
+.fa-calendar{
+  padding:10px;
+}
+
+.fa-check{
+  padding:10px;
+}
+.fa-building{
+  padding:10px;
+}
+
+
+p.text-center a{
+  color: grey;
+}
+
+.card{
+  margin-top:20px ;
+}
+.gym{
+    background-size: cover;
+    position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index:0;
+}
+	.log{
+		position: absolute;
+		top: 40%;
+    left: 39%;
+    z-index: 1;
+}
+nav li a{
+    font-family: 'Archivo', sans-serif,!important;
+    z-index: 0;
+}
+
+
+h2{
+  font-family: 'Ubuntu', sans-serif,!important;
+
+}
+h4{
+  font-family: 'Roboto', sans-serif,!important;
+  color:#ADFF2F;
+}
+P{
+  font-family: 'Roboto', sans-serif,!important;
+  padding :1%;
+
+}
+
+.container{
+  font-family: 'Roboto', sans-serif,!important;
+  padding :1%;
+
+}
+
+
+footer {
+
+    background: linear-gradient(59deg,#545454,rgb(132, 134, 134));
+    color: white;
+    margin-top:100px;
+    font-family: 'Archivo', sans-serif;
+  }
+
+
+
+
+	.btnstyl{
+   padding: .75rem 1.25rem;
+   margin-bottom: 0;
+     /* background-color: rgba(0,0,0,.03); */
+   border-bottom: 1px solid rgba(0,0,0,.125);
+   background-image: url("img/goldpic.jpg");
+   background-color: #FFD700;
+   font-family: 'Archivo', sans-serif,'important';
+ }
+ .btnstyl2{
+   padding: .75rem 1.25rem;
+   margin-bottom: 0;
+     /* background-color: rgba(0,0,0,.03); */
+     border-bottom: 1px solid rgba(0,0,0,.125);
+     background-image: url(img/silver.jpg);
+   background-color: #C0C0C0;
+   font-family: 'Archivo', sans-serif,'important';
+ }
+ .btnstyl3{
+   padding: .75rem 1.25rem;
+   margin-bottom: 0;
+  /* background-color: rgba(0,0,0,.03); */
+   border-bottom: 1px solid rgba(0,0,0,.125);
+   background-image: url("img/bronzepic.jpg");
+   background-color: #C0C0C0;
+   font-family: 'Archivo', sans-serif,'important';
+ }
+
+ #memimage1{
+   background: url("img/mem.jpg");
+   width: 100vw;
+   height: 100vh;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   position: relative;
+ }
+
+
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+
+  footer a:hover {
+    color: white;
+    text-decoration: none;
+  }
+
+
+
+
+
+
+  /*SOCİAL İCONS*/
+
+  /* footer social icons */
+
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+    color:grey;
+  }
+
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+
+
+  /* footer social icons */
+
+
+
+
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 20%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+
+  .social-circle i {
+    color:black;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+   */
+  .social-network a {
+    background-color: white;
+  }
+
+ #icoFacebook{
+   background-color:grey;
+ }
+
+#icoLinkedin{
+  background-color:grey;
+}
+
+#icoInstagram{
+background-color:grey;
+}
+
+#icoTwitter{
+  background-color:grey;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+
+  }
+  .box img{
+    background-color: ;
+
+}
+}
+
+.btn-mem{
+	background: grey;
+	border: 2px solid black;
+}
+
+/* Styling for Careers Section */
+.job-card {
+    cursor: pointer;
+    box-shadow: 0 15px 15px 0 rgba(0,0,0,.1);
+    padding: 20px;
+    position: relative;
+}
+.pd-t--md {
+    padding-top: 3em;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media (min-width: 992px)
+.job-card:hover .gp-btn {
+    opacity: 1;
+}
+
+span.gp-btn--purple:hover {
+    background: #fff;
+    color: black;
+}
+
+.job-card .gp-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    transition: opacity .3s;
+    z-index: 1;
+    padding: 8px 30px;
+    font-size: 12px;
+}
+a.gp-btn--purple, button.gp-btn--purple, span.gp-btn--purple {
+    color: #fff;
+    background: grey;
+    border: 2px solid black;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+a.gp-btn, button.gp-btn, span.gp-btn {
+    border-bottom-left-radius: 30px;
+    color: white;
+    display: inline-block;
+    font-family: Archivo, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    transition: background .3s,color .3s,border .3s;
+}
+
+.jobs a{
+	color: black;
+}
+
+.job-title{
+	clear: both;
+	line-height: 1.5;
+	padding-top: 10%;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-weight: 900;
+}
+
+/*Forum */
+.post {
+    background-color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px #c9cccd;
+    margin-bottom: 20px;
+}
+.pull-left {
+    float: left!important;
+}
+
+.post .wrap-ut {
+    width: 85%;
+}
+
+.post .userinfo {
+    width: 15%;
+    padding: 20px 0 15px 15px;
+}
+
+.post .avatar {
+    width: 37px;
+    margin-left: 5px;
+}
+
+.avatar {
+    position: relative;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
